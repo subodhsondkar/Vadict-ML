@@ -1,0 +1,13 @@
+Kernel core likhna hai --- Prediction API
+JMS-TO-SQL and kernel core set up
+
+ASK:
+	Design an api using raw data and metrics.csv
+		Kernel core side
+		Should be syncronous with the database table
+		From raw data, each minute to one day
+		Should be scalable
+	Request : Pull data for 3 days (say)
+		Argument time (3 or 4 days) get from database
+		metrics.csv: model name, model version, model location.
+	Integrate the data from JMS-TO-SQL with the created API (on kernel core)
